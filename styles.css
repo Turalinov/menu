@@ -190,6 +190,7 @@ Menu
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .filter-btn {
   background: transparent;
@@ -203,6 +204,7 @@ Menu
   color: var(--clr-gold);
   cursor: pointer;
   transition: var(--transition);
+  margin-bottom: 10px;
 }
 .filter-btn:hover {
   background: var(--clr-gold);
